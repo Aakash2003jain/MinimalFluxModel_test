@@ -75,6 +75,43 @@ pip install torch torchvision diffusers transformers opencv-python numpy matplot
 ```sh
 julia -e 'using Pkg; Pkg.add(["Flux", "Images", "ImageIO"])'
 ```
+## ▶️ Running the Project  
+
+### **🔹 Running Stable Diffusion (Task 1)**
+
+### **🔹 Running Image Preprocessing (Task 2)**
+
+### **🔹 Running CNN Model with Flux.jl (Task 3)**  
+
+#### **1️⃣ Open Julia REPL**  
+To start Julia, run:
+```sh
+julia
+```
+
+#### **2️⃣ Load the required libraries**  
+Inside the Julia REPL, run:
+```julia
+using Flux, Images, ImageIO
+```
+
+#### **3️⃣ Run the model script**  
+```sh
+julia flux_model.jl
+```
+
+OR, inside Julia:
+```julia
+include("flux_model.jl")
+```
+
+---
+
+## 🎯 Key Insights  
+
+- ✅ Stable Diffusion generates **high-quality images** but requires **prompt tuning**.  
+- ✅ Image preprocessing ensures **CNN compatibility** for feature extraction.  
+- ✅ Using **Flux.jl** for CNN modeling provides a lightweight alternative to PyTorch/TensorFlow.  
 
 ---
 
