@@ -54,7 +54,27 @@ A **Convolutional Neural Network (CNN)** was implemented using **Flux.jl** to pr
 ### ⚠️ **Challenges & Assumptions**  
 - **Input image dimensions must be correct** (expected 224x224).  
 - Model trained with **randomly initialized weights** (not pre-trained).  
-- **Normalization was required** to match the CNN's expected input range.  
+- **Normalization was required** to match the CNN's expected input range.
+
+## 🛠️ Installation & Setup  
+
+### **1️⃣ Clone the repository**  
+```sh
+git clone https://github.com/your-username/image-gen-processing.git
+cd image-gen-processing
+```
+
+### **2️⃣ Install Dependencies**  
+
+#### **🔹 For Python (Image Generation & Preprocessing)**  
+```sh
+pip install torch torchvision diffusers transformers opencv-python numpy matplotlib
+```
+
+#### **🔹 For Julia (CNN Model with Flux.jl)**  
+```sh
+julia -e 'using Pkg; Pkg.add(["Flux", "Images", "ImageIO"])'
+```
 
 ---
 
