@@ -114,5 +114,7 @@ include("flux_model.jl")
 - ✅ Using **Flux.jl** for CNN modeling provides a lightweight alternative to PyTorch/TensorFlow.  
 
 ---
+## 📢 Author  
+**Aakash Jain** | AI & ML Enthusiast 🚀
 
 
